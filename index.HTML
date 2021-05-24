@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Solulabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="body">
+        <div class="header">
+            <div class="header-wrapper">
+                <div class="welcome-wrapper">
+                    <img src="./icons/rocket.svg" class="rocket"> We're available for new projects!
+                </div>
+                <div class="time-wrapper" id="datetime"></div>
+                <div class="share-icon-wrapper">
+                    <img src="./icons/sharethis.gif" alt="Share Icon" id="share">
+                    <img src="./icons/exclamation_circle_icon.svg" alt="Notification" id="notification">
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div>
+                <div class="vertical-line"><img class="vertical-line-img" src="icons/vertical-lines.svg"></div>
+
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-fw fa-home"></i> </a>
+                <a href="#"><i class="fa fa-fw fa-wrench"></i> </a>
+                <a href="#"><i class="fa fa-fw fa-user"></i> </a>
+                <a href="#"><i class="fa fa-fw fa-envelope"></i> </a>
+                <a href="#"><i class="fa fa-fw fa-user"></i> </a>
+            </div>
+            <div>
+                <div class="profile-icon-wrapper">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-6--v1.png" />
+                </div>
+            </div>
+        </div>
+        <div class="cards-wrapper">
+            <div class="content-wrapper">
+                <div class="user-welcome-message-wrapper">
+                    <div class="five" width:"50%">Hey Roman, Welcome Back!</div>
+                    <div class="searchbar-wrapper">
+                        <div class="container-4">
+                            <div class="search-box">
+                                <input type="search" id="search" placeholder="Search..." />
+                                <button class="icon"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="customer-revenue">
+                        <table class="revenue-table">
+                            <tr class="table-head">
+                                <th>Customers</th>
+                                <th>Revenue</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="loss">
+                                            <img class="loss-icon" src="icons/loss.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Head Count</div>
+                                            <div>155</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="growth">
+                                            <img class="loss-icon" src="icons/growth.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Earned this month</div>
+                                            <div>$ 434,356</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="loss">
+                                            <img class="growth-icon" src="icons/loss.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Orders this week</div>
+                                            <div>24</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="growth">
+                                            <img class="growth-icon" src="icons/growth.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Invoices Paid</div>
+                                            <div>$ 1,366,356</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="growth">
+                                            <img class="growth-icon" src="icons/growth.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Orders Scheduled</div>
+                                            <div>12</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="customer-revenue-content">
+                                        <div class="growth">
+                                            <img class="growth-icon" src="icons/growth.svg" width="18px">
+                                        </div>
+                                        <div>
+                                            <div class="text">Estimated Profit</div>
+                                            <div>$ 2,366,356</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="six">
+                        <div class="signup-card">
+                            <div id="heading">
+                                Sign Up and Subscribe!
+                            </div>
+                            <div id="content">
+                                You should do some thing to get more clients!
+                            </div>
+                            <div id="arrowicon">
+                                <img src="./icons/rocket.svg" width="30px" height="30px">
+                            </div>
+                        </div>
+                        <div class="strip-card">
+                            <div id="stripe-heading">
+                                Connect your Stripe Account
+                            </div>
+                            <div id="stripe-card">
+                                <img src="./icons/card.svg" width:"48px">
+                            </div>
+                            <div id="stripe-content">
+                                Receive payment from clients right to your credit card
+                            </div>
+                            <div id="stripe-arrowicon">
+                                <img src="./icons/rocket.svg" width="33px" height="33px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location">
+                <div class="glossy-image-wrapper">
+                    <img src="./images/maps.jpg" class="glossy-image">
+                    <figure class="glossy-image-top">
+                    </figure>
+                </div>
+                <div class="location-card">
+                    <div class="location-wrapper">
+                        <div class="location-card-wrapper">
+                            <div class="location-card-content">
+                                <div >
+                                    <h3 class="location-card-user-name">Clayton V.</h3>
+                                </div>
+                                <div class="location-card-text">
+                                    Grease Pump Out
+                                </div>
+                                <div class="location-card-icon-pincode">
+                                    <img class="location-icon" src="https://img.icons8.com/carbon-copy/20/ffffff/marker.png"/><div class="location-card-pincode">19127</div>
+                                </div>
+                            </div>
+                            <div class="add-button-wrapper">
+                                <div class="add-button-border">
+                                    <div class="add-button-div">
+                                        <img class="add-button-icon"src="https://img.icons8.com/ios-filled/24/AEEA00/plus-math.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-wrapper">
+                        <div class="location-card-wrapper">
+                            <div class="location-card-content">
+                                <div >
+                                    <h3 class="location-card-user-name">Clayton V.</h3>
+                                </div>
+                                <div class="location-card-text">
+                                    Grease Pump Out
+                                </div>
+                                <div class="location-card-icon-pincode">
+                                    <img class="location-icon" src="https://img.icons8.com/carbon-copy/20/ffffff/marker.png"/><div class="location-card-pincode">19127</div>
+                                </div>
+                            </div>
+                            <div class="add-button-wrapper">
+                                <div class="add-button-border">
+                                    <div class="add-button-div">
+                                        <img class="add-button-icon"src="https://img.icons8.com/ios-filled/24/AEEA00/plus-math.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-wrapper">
+                        <div class="location-card-wrapper">
+                            <div class="location-card-content">
+                                <div >
+                                    <h3 class="location-card-user-name">Clayton V.</h3>
+                                </div>
+                                <div class="location-card-text">
+                                    Grease Pump Out
+                                </div>
+                                <div class="location-card-icon-pincode">
+                                    <img class="location-icon" src="https://img.icons8.com/carbon-copy/20/ffffff/marker.png"/><div class="location-card-pincode">19127</div>
+                                </div>
+                            </div>
+                            <div class="add-button-wrapper">
+                                <div class="add-button-border">
+                                    <div class="add-button-div">
+                                        <img class="add-button-icon"src="https://img.icons8.com/ios-filled/24/AEEA00/plus-math.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-wrapper">
+                        <div class="location-card-wrapper">
+                            <div class="location-card-content">
+                                <div >
+                                    <h3 class="location-card-user-name">Clayton V.</h3>
+                                </div>
+                                <div class="location-card-text">
+                                    Grease Pump Out
+                                </div>
+                                <div class="location-card-icon-pincode">
+                                    <img class="location-icon" src="https://img.icons8.com/carbon-copy/20/ffffff/marker.png"/><div class="location-card-pincode">19127</div>
+                                </div>
+                            </div>
+                            <div class="add-button-wrapper">
+                                <div class="add-button-border">
+                                    <div class="add-button-div">
+                                        <img class="add-button-icon"src="https://img.icons8.com/ios-filled/24/AEEA00/plus-math.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-wrapper">
+                        <div class="location-card-wrapper">
+                            <div class="location-card-content">
+                                <div >
+                                    <h3 class="location-card-user-name">Clayton V.</h3>
+                                </div>
+                                <div class="location-card-text">
+                                    Grease Pump Out
+                                </div>
+                                <div class="location-card-icon-pincode">
+                                    <img class="location-icon" src="https://img.icons8.com/carbon-copy/20/ffffff/marker.png"/><div class="location-card-pincode">19127</div>
+                                </div>
+                            </div>
+                            <div class="add-button-wrapper">
+                                <div class="add-button-border">
+                                    <div class="add-button-div">
+                                        <img class="add-button-icon"src="https://img.icons8.com/ios-filled/24/AEEA00/plus-math.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+
+    </div>
+
+<script>
+    //-----------TIME------------
+    timer();
+
+    function timer() {
+        var currentTime = new Date()
+        var hours = currentTime.getHours()
+        var minutes = currentTime.getMinutes()
+        var sec = currentTime.getSeconds()
+        if (minutes < 10) {
+            minutes = "0" + minutes
+        }
+        if (sec < 10) {
+            sec = "0" + sec
+        }
+        var t_str = hours + ":" + minutes + ":"+ sec + " ";
+        if (hours > 11) {
+            t_str += "PM";
+        } else {
+            t_str += "AM";
+        }
+        document.getElementById('datetime').innerHTML = t_str;
+        setTimeout(timer, 1000);
+    }
+</script>
+</body>
+
+</html>
